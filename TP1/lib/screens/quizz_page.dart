@@ -28,8 +28,8 @@ class QuizzPage extends StatefulWidget {
 }
 
 class _QuizzPageState extends State<QuizzPage> {
-  List<Question> questions = [Question(questionText: "questionText 1 hhdbfdhguyfgdyugduvdhgugyugfudgvugduygfdsugugdvgcugdugdugvdugcudsgyttgdftgvyudguyvgdsyugdsyugvufdgvuyfvygytvgdytguydgfudguyvgdgyvugyvyugvuyfgvyufgtvufuvgtutvfuygvuyfgv?", isCorrect: true,imgUrl: "https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg"),
-  Question(questionText: "questionText 2 ?", isCorrect: false,imgUrl: 'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg')
+  List<Question> questions = [Question(questionText: "Q1 : Cet animal est une chouette", isCorrect: true, imgUrl: "https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg"),
+  Question(questionText: "Q2 : Cet animal est un rhinocéros", isCorrect: false,imgUrl: 'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg')
   ];
   int index = 0;
   int score = 0;
@@ -130,11 +130,10 @@ class _QuizzPageState extends State<QuizzPage> {
                             score-=10;
                             nextQuestion();
                           });
-
                         }
 
                     },
-                    child: const Text('Question suivante'),
+                    child: const Text('Suivant'),
                   ),
                 ),
 

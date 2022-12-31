@@ -79,7 +79,7 @@ class _ResultPageState extends State<ResultPage> {
             Row(
               children: <Widget>[
                 Container(
-                  margin: EdgeInsets.only(left: 90.0,top: 30.0,right: 0.0,bottom: 20.0),
+                  margin: EdgeInsets.only(left: 40.0,top: 30.0,right: 0.0,bottom: 20.0),
                   child: ElevatedButton(
 
                     style: ElevatedButton.styleFrom(textStyle: const TextStyle(fontSize: 25)),
