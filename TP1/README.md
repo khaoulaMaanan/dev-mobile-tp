@@ -1,16 +1,8 @@
 # quiz_app
 
-A new Flutter project.
+Cette application a été réalisée dans le cadre de l'UE HAI912I - Développement mobile avancé, IoT et embarqué.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Nous vous conseillons d'ouvrir ce projet dans votre interface de développement Flutter (à titre informatif, nous avons utilisé IntelliJ). 
+Pour le lancer, ne lancer pas le main de la classe Main : il est préférable de lancer le main de la classe QuizzPage.
